@@ -3,7 +3,7 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
-module.exports = () => {
+const webpackConfig = () => {
   return {
     mode: 'development',
     entry: {
@@ -19,12 +19,12 @@ module.exports = () => {
         template: './index.html',
         title: 'J.A.T.E'
       }),
-      // Service Worker Pluggin
+      // Service Worker Plugin
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
-      // Manifest File Pluggin
+      // Manifest File Plugin
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -66,3 +66,5 @@ module.exports = () => {
     },
   };
 };
+
+module.exports = webpackConfig;
