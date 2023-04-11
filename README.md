@@ -1,10 +1,7 @@
 <p>
-    <img src="https://img.shields.io/github/repo-size/jairoPJM/text-editor-19
-" />
-    <img src="https://img.shields.io/github/languages/top/jairoPJM/text-editor-19
-"  />
-    <img src="https://img.shields.io/github/last-commit/jairoPJM/text-editor-19
-" />
+<img src="https://img.shields.io/github/repo-size/jairoPJM/text-editor-19" />
+<img src="https://img.shields.io/github/languages/top/jairoPJM/text-editor-19"  />
+<img src="https://img.shields.io/github/last-commit/jairoPJM/text-editor-19" />
 </p>
     
  <h1 align="center"> text-editor-19
@@ -48,7 +45,7 @@ THEN I should have proper build scripts for a webpack application
 - [License](#license)
 
 ## Installation
-You can use the website with this link  dw
+You can use the website with this link  
 
 ## Usage 💡
 ![Capture2](https://user-images.githubusercontent.com/111899130/231069542-8ee4f37c-da00-4584-8189-417ecafa5336.PNG)
